@@ -1,0 +1,133 @@
+[
+  {
+    "componentName": "default",
+    "title": "demo",
+    "docUrl": "",
+    "screenshot": "",
+    "devMode": "proCode",
+    "npm": {
+      "package": "demo",
+      "version": "1.0.0",
+      "exportName": "default",
+      "main": "./component.tsx",
+      "destructuring": false,
+      "subName": ""
+    },
+    "props": [
+      {
+        "name": "optionalArray",
+        "propType": {
+          "type": "tuple",
+          "value": []
+        }
+      },
+      {
+        "name": "optionalBool",
+        "propType": {
+          "type": "bool",
+          "isRequired": true
+        }
+      },
+      {
+        "name": "optionalFunc",
+        "propType": {
+          "type": "func",
+          "isRequired": true
+        }
+      },
+      {
+        "name": "optionalNumber",
+        "propType": {
+          "type": "number",
+          "isRequired": true
+        }
+      },
+      {
+        "name": "optionalObject",
+        "propType": {
+          "type": "object",
+          "isRequired": true
+        }
+      },
+      {
+        "name": "optionalString",
+        "propType": "string",
+        "defaultValue": "optionalString"
+      },
+      {
+        "name": "optionalSymbol",
+        "propType": {
+          "type": "symbol",
+          "isRequired": true
+        }
+      },
+      {
+        "name": "optionalNode",
+        "propType": {
+          "type": "node",
+          "isRequired": true
+        }
+      },
+      {
+        "name": "optionalElement",
+        "propType": {
+          "type": "object",
+          "isRequired": true
+        }
+      },
+      {
+        "name": "optionalElementType",
+        "propType": {
+          "type": "oneOfType",
+          "isRequired": true,
+          "value": [
+            "object"
+          ]
+        }
+      },
+      {
+        "name": "optionalMessage",
+        "propType": {
+          "type": "oneOfType",
+          "isRequired": true,
+          "value": [
+            "object"
+          ]
+        }
+      },
+      {
+        "name": "optionalEnum",
+        "propType": {
+          "type": "oneOf",
+          "isRequired": true,
+          "value": [
+            "News",
+            "Photos"
+          ]
+        }
+      },
+      {
+        "name": "optionalUnion",
+        "propType": {
+          "type": "element",
+          "isRequired": true
+        }
+      },
+      {
+        "name": "optionalArrayOf",
+        "propType": {
+          "type": "arrayOf",
+          "isRequired": true,
+          "value": "number"
+        }
+      },
+      {
+        "name": "optionalObjectOf",
+        "propType": {
+          "type": "object",
+          "isRequired": true
+        }
+      }
+    ]
+  }
+]

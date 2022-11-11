@@ -1,0 +1,169 @@
+[
+  {
+    "componentName": "Demo",
+    "title": "",
+    "docUrl": "",
+    "screenshot": "",
+    "devMode": "proCode",
+    "npm": {
+      "package": "",
+      "version": "",
+      "exportName": "default",
+      "main": "./component.jsx",
+      "destructuring": false,
+      "subName": ""
+    },
+    "props": [
+      {
+        "name": "optionalArray",
+        "propType": "array"
+      },
+      {
+        "name": "optionalBool",
+        "propType": "bool"
+      },
+      {
+        "name": "optionalFunc",
+        "propType": "func"
+      },
+      {
+        "name": "optionalNumber",
+        "propType": "number"
+      },
+      {
+        "name": "optionalObject",
+        "propType": "object"
+      },
+      {
+        "name": "optionalString",
+        "propType": "string"
+      },
+      {
+        "name": "optionalSymbol",
+        "propType": "symbol"
+      },
+      {
+        "name": "optionalNode",
+        "propType": "node"
+      },
+      {
+        "name": "optionalElement",
+        "propType": "element"
+      },
+      {
+        "name": "optionalElementType",
+        "propType": "object"
+      },
+      {
+        "name": "optionalMessage",
+        "propType": {
+          "type": "instanceOf",
+          "value": "Demo"
+        }
+      },
+      {
+        "name": "optionalEnum",
+        "propType": {
+          "type": "oneOf",
+          "value": [
+            "News",
+            "Photos"
+          ]
+        }
+      },
+      {
+        "name": "optionalUnion",
+        "propType": {
+          "type": "oneOfType",
+          "value": [
+            "string",
+            "number",
+            {
+              "type": "instanceOf",
+              "value": "Demo"
+            }
+          ]
+        }
+      },
+      {
+        "name": "optionalObjectOf",
+        "propType": {
+          "type": "objectOf",
+          "value": "number"
+        }
+      },
+      {
+        "name": "optionalObjectWithShape",
+        "propType": {
+          "type": "shape",
+          "value": [
+            {
+              "name": "optionalProperty",
+              "propType": "string"
+            },
+            {
+              "name": "requiredProperty",
+              "propType": {
+                "type": "number",
+                "isRequired": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "optionalObjectWithShape2",
+        "propType": {
+          "type": "shape",
+          "isRequired": true,
+          "value": [
+            {
+              "name": "optionalProperty",
+              "propType": "string"
+            },
+            {
+              "name": "requiredProperty",
+              "propType": {
+                "type": "number",
+                "isRequired": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "optionalObjectWithStrictShape",
+        "propType": {
+          "type": "exact",
+          "value": [
+            {
+              "name": "optionalProperty",
+              "propType": "string"
+            },
+            {
+              "name": "requiredProperty",
+              "propType": {
+                "type": "number",
+                "isRequired": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "requiredFunc",
+        "propType": {
+          "type": "func",
+          "isRequired": true
+        }
+      },
+      {
+        "name": "requiredAny",
+        "propType": {
+          "type": "any",
+          "isRequired": true
+        }
+      }
+    ]
+  }
+]
